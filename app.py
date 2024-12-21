@@ -6,9 +6,9 @@ import numpy as np
 import catboost
 
 # путь к модели
-model_path = 'model_cb2.pkl'
+#model_path = 'model_cb2.pkl'
 # модель
-with open(model_path, 'rb') as file:
+with open('model_cb2.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # загрузка site.pkl
