@@ -3,6 +3,7 @@ from datetime import datetime, time
 import pickle
 import pandas as pd
 import numpy as np
+import catboost
 
 # путь к модели
 model_path = 'model_cb2.pkl'
