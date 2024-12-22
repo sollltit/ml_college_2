@@ -320,7 +320,7 @@ if button:
 
     df_predict = df_user
     df_predict = mod_df(df_predict)
-    st.dataframe(df_predict)   
+    # st.dataframe(df_predict)   
     
     predict_val = model_predict(model, df_predict)
     res = np.array2string(predict_val, separator=', ', prefix='', suffix='').strip('[]')
